@@ -1,0 +1,8 @@
+name: Super Linter Lite
+description: Simple lint verification for repositories
+runs:
+  using: "composite"
+  steps:
+    - name: Run lint checks
+      run: bash lint.sh
+      shell: bash
