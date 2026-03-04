@@ -4,5 +4,5 @@ runs:
   using: "composite"
   steps:
     - name: Run lint checks
-      run: bash lint.sh
+      run: bash ${{ github.action_path }}/lint.sh
       shell: bash
